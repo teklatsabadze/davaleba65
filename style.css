@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.photo1{
+    
+    height: 254px;
+    position: absolute;
+    z-index: 2;
+    margin-right: 845px;
+    margin-bottom: 578px;
+}
+.photo2{
+    
+    height: 254px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 371px;
+}
+.photo3{
+    
+    height: 254px;
+    margin-left: 859px;
+    position: absolute;
+    z-index: 3;
+}
+.text{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 195px;
+    margin-left: 375px;
+    position: absolute;
+    z-index: 4;
+    width: 538px;
+    height: 59px;
+}
